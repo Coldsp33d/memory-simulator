@@ -2,7 +2,7 @@
 MU0 {compiler, execution program} with memory management simulation.
 
 ## _Shortened Summary (for experienced users)_ 
-_**STEP 1**_ Use python3 client.py to begin.
+_**STEP 1**_ Use python3 __main__.py to begin.
 
 _**STEP 2**_ Provide input either through files or through the in- built high-level to MU0 code compiler
 
@@ -13,7 +13,7 @@ _**STEP 4**_ Execute instructions through the use of STEP, RUN, PAUSE, or start 
 ## _Detailed HOWTO_
 ### STEP 1 Starting the simulator
 Navigate to the directory containing all the memory simulator files, and run the file client.py using the command
-python3 client.py
+python3 __main__.py
 Note that the client program must be run with Python v3.4 or later. Proceed to Step 2.
 
 ### STEP 2 Providing input
