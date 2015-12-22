@@ -1,0 +1,25 @@
+lda zero
+sto _temp1
+lda b
+sto _t_scl
+lda _t_scl
+sub one
+jge 9
+jmp 16
+lda _temp1
+add a
+sto _temp1
+lda _t_scl
+sub one
+sto _t_scl
+jmp 5
+lda _temp1
+sto c
+stp
+c 0
+zero 0
+b 20
+_t_scl 0
+_temp1 0
+a 10
+one 1
