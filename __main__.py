@@ -3,7 +3,6 @@ import tkinter.messagebox
 import copy,time,os
 import memsimv64
 import newgui
-f=open("cmd.txt","r")
 l=list()
 nf=True
 pfaultcount=0
