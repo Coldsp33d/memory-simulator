@@ -10,7 +10,7 @@ _**STEP 3**_ Set the run-time conditions by filling in the appropriate fields an
 
 _**STEP 4**_ Execute instructions through the use of STEP, RUN, PAUSE, or start from the beginning with RESET
 
-## _Detailed Howto___
+## _Detailed HOWTO_
 ### STEP 1 Starting the simulator
 Navigate to the directory containing all the memory simulator files, and run the file client.py using the command
 python3 client.py
