@@ -133,7 +133,7 @@ class OldDialogDemo(Frame):
 		#if ans.num == 0:
 		#	import newgui
 		if self.ans.num == 1:
-			master.geometry("800x600+300+100")
+			master.geometry("1600x1000")
 			self.createWidgets(master)
 
 	def make_tb(self, frame):
@@ -174,7 +174,7 @@ class OldDialogDemo(Frame):
 		self.clear.pack(ipadx=10, ipady=10, expand=1, side=LEFT)
 		self.how_to=Button(frame2, text="HELP", command=self.help)
 		self.how_to.pack(ipadx=10, ipady=10, expand=1, side=LEFT)
-		self.quit=Button(frame2, text="QUIT", bg="red", fg="white", command=master.destroy)
+		self.quit=Button(frame2, text="EXIT", bg="red", fg="white", command=master.destroy)
 		self.quit.pack(ipadx=10, ipady=10, expand=1, side=LEFT  )
 		self.text.see("1.0")
 	def compile_method(self):

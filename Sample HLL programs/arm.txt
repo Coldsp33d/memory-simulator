@@ -1,0 +1,28 @@
+NUM = 371
+IS_ARM = 0
+temp = 0
+temp = NUM
+zero = 0
+one = 1
+ten = 10
+sum = 0
+d = 0
+three = 3
+
+while ( temp != zero )
+{
+	d = temp % ten
+	temp = temp / ten 
+	sum = sum + ( d ^ three )
+}
+
+if ( sum != NUM ) 
+{
+	IS_ARM = zero
+}
+else
+{
+	IS_ARM = one
+}
+
+end

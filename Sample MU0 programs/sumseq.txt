@@ -1,0 +1,20 @@
+lda NUM
+sub zero
+jne 5
+jmp 14
+lda SUM
+add NUM
+sto SUM
+lda NUM
+sub one
+sto _temp1
+lda _temp1
+sto NUM
+jmp 1
+stp
+zero 0
+_temp1 0
+one 1
+NUM 10
+SUM 0
+

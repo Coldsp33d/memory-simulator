@@ -1,0 +1,36 @@
+lda zero
+sub n
+jge 5
+jmp 7
+stp
+jmp 7
+lda one
+sto b
+lda n
+sub zero
+jne 13
+jmp 26
+lda a
+sto temp
+lda b
+sto a
+lda temp
+add b
+sto b
+lda n
+sub one
+sto _temp1
+lda _temp1
+sto n
+jmp 9
+lda b
+sto result
+stp
+a 0
+one 1
+n 10
+zero 0
+temp 0
+result 0
+b 0
+_temp1 0

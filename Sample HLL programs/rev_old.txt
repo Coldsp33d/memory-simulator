@@ -1,0 +1,15 @@
+NUM = 123
+REV = 0
+zero = 0
+ten = 10
+d = 0
+
+
+while ( NUM != zero )
+{
+	d = NUM % ten
+	REV = REV * ten + d 
+	NUM = NUM / ten
+}
+
+
