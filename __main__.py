@@ -135,7 +135,7 @@ class App():
 		if(len(sm)>71):
 			tkinter.messagebox.showinfo("OVERFLOW","Memory Overflow")
 			root.destroy()
-			os.system("python3 client.py")
+			os.system("python3 __main__.py")
 		for i in range(int(newgui.a)):
 			k=i
 			self.labelsb.append(Label(self.frame3, text = 'Frame '+ str(i), justify = LEFT).pack(pady=5))
@@ -532,7 +532,7 @@ class App():
 			self.start()
 		else:
 			root.destroy()
-			os.system("python3 client.py")
+			os.system("python3 __main__.py")
 			
 class App1():
 	def __init__(self,master,a,b):
@@ -583,7 +583,7 @@ class App1():
 		if(len(sm)>71):
 			tkinter.messagebox.showinfo("OVERFLOW","Memory Overflow")
 			root.destroy()
-			os.system("python3 client.py")
+			os.system("python3 __main__.py")
 		for i in range(int(newgui.a)):
 			k=i
 			self.labelsb.append(Label(self.frame3, text = 'Frame '+ str(i), justify = LEFT).pack(pady=5))
@@ -1005,7 +1005,7 @@ class App1():
 			self.start()
 		else:
 			root.destroy()
-			os.system("python3 client.py")
+			os.system("python3 __main__.py")
 if(newgui.f and newgui.sel==0):
 	root=Tk()
 	root.wm_title("Memory Simulator")
