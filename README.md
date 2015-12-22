@@ -4,8 +4,7 @@ MU0 {compiler, execution program} with memory management simulation.
 ***_Disclaimer: The memory simulator has been designed and tested only on Ubuntu._***
 ## _Shortened Summary (for experienced users)_ 
 * _**STEP 1**_ Run the program with the following command:
-```python3 __main__.py 
-```
+```python3 __main__.py ```
 * _**STEP 2**_ Provide input either through files or through the in- built high-level to MU0 code compiler
 
 * _**STEP 3**_ Set the run-time conditions by filling in the appropriate fields and check boxes
