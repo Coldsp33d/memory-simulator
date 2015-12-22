@@ -1,6 +1,7 @@
 # Memory Simulator
 MU0 {compiler, execution program} with memory management simulation.
 
+***_Disclaimer: The memory simulator has been designed and tested only on Ubuntu._***
 ## _Shortened Summary (for experienced users)_ 
 _**STEP 1**_ Use python3 __main__.py to begin.
 
