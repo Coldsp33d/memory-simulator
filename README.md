@@ -12,12 +12,12 @@ MU0 {compiler, execution program} with memory management simulation.
 * _**STEP 4**_ Execute instructions through the use of STEP, RUN, PAUSE, or start from the beginning with RESET
 
 ## _Detailed HOWTO_
-* ### STEP 1 Starting the simulator
+1. ### STEP 1 Starting the simulator
 Navigate to the directory containing all the memory simulator files, and run the file client.py using the command
 ```python3 __main__.py```
 Note that the client program must be run with Python v3.4 or later. Proceed to Step 2.
 
-* ### STEP 2 Providing input
+2. ### STEP 2 Providing input
 A message box pops up asking you two choose whether to (i) input MU0 programs through file storage, or (ii) write your own high-level language program. On clicking (i), proceed to OPTION A of this step. Otherwise, for (ii), proceed to OPTION B.
 ##### OPTION A: Providing readily availble input files 
 Using this option, you can choose one or more text files containing pure MU0 instruction code. The simulator assumes that these files are syntactically correct - the simulator does not check for errors in the assembly code.
@@ -34,7 +34,7 @@ This option invokes the compiler, which consists of the following:
 
 Enter code into the console, click on COMPILE, and then, if there are no errors in the code, click on CONTINUE. Proceed to Step 3.
 
-* ### STEP 3 Setting run-time conditions
+3. ### STEP 3 Setting run-time conditions
 Set run-time conditions:
  * "Choose the no. of physical memory frames": The size of the memory can be set to 4, 8, or 16.
  * "Enter timeout period": This is the timeslice given to each process for Round Robin scheduling, measured in terms of instructions executed (assuming each instruction takes one unit time to execute in an ideal system).
@@ -42,7 +42,7 @@ Set run-time conditions:
  
 Once all the conditions have been set, click on Submit and proceed to Step 4.
 
-* ### STEP 4 Executing the program(s)
+4. ### STEP 4 Executing the program(s)
 The new window that is created after completing Step 3 displays a lot of options, enumerated below:
  *	RESET button, to exit the current session and restart. On clicking this button, the user has the option to return to either Step 1 or Step 3
  *	STEP button which only performs ONE action at a time (either instruction execution, page swapping or process switching)
