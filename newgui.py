@@ -33,7 +33,7 @@ class Mem():
 		#self.e1=Entry(master,validate="key", validatecommand=(vcmd, '%P'))
 		self.e2=Entry(master,validate="key", validatecommand=(vcmd, '%P'))
 		self.lst1 = ['4','8','16']
-		self.lst2 = ['First In First Out-Worst','Random','Clock','Least Recently used-Best','Optimal-Theoretical']
+		self.lst2 = ['First-In-First-Out (FIFO) (Worst)','Random Replacement','Clock Replacement','Least Recently Used (LRU) (Practically Best)','Optimal (Theoretically Best)']
 		self.var1 = StringVar()
 		self.var1.set("Choose your option")
 		self.var2 = StringVar()
