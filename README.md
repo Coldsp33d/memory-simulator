@@ -1,5 +1,5 @@
 # Memory Simulator 
- by Rajath Krishna and Shiva K D
+     by Rajath Krishna and Shiva K D
  
 MU0 {compiler, execution program} with memory management simulation.
 
