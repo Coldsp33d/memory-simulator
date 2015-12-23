@@ -1,4 +1,4 @@
-# Memory Simulator
+# Memory Simulator # by Rajath Krishna and Shiva K D
 MU0 {compiler, execution program} with memory management simulation.
 
 ***_Disclaimer: The memory simulator has been designed and tested only on Ubuntu._***
