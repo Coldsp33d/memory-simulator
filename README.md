@@ -48,8 +48,8 @@ MU0 {compiler, execution program} with memory management simulation.
  The new window that is created after completing Step 3 displays a lot of options, enumerated below:
   *	RESET button, to exit the current session and restart. On clicking this button, the user has the option to return to either Step 1 or Step 3
   *	STEP button which only performs ONE action at a time (either instruction execution, page swapping or process switching)
-  *	RUN button causes instructions to run automatically without user intervention. When RUN is pressed, STEP is disabled, and can only be stopped by pressing PAUSE
-  *	PAUSE button has the reverse effect of RUN
+  *	RUN button causes instructions to run automatically without user intervention. When RUN is pressed, STEP is disabled, and can only be stopped by pressing PAUSE.
+  *	PAUSE button has the reverse effect of RUN.
   *	QUIT button to exit the simulator.
   *	STATUS WINDOW which displays to the user, all relevant information regarding the run-time environment for the current process, the number of page faults, and other information 
  
